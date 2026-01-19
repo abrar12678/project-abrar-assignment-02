@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techwave - Podcast Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="font-inter w-full"> 
+
+    <header class="w-full">
+    <nav class="navbar flex justify-between items-center border-b border-gray-700 w-full max-w-[1600px] mx-auto h-[92px] px-[200px]">
+      <h2 class="text-4xl font-black w-[219px] h[32px]">
+        <span class="text-gray-50">Tech</span><span class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+      </h2>
+      <ul class="text-gray-50 flex gap-x-[32px] font-medium text-base">
+        <li>About</li>
+        <li>Episodes</li>
+        <li>Host</li>
+      </ul>
+      <button class="text-gray-50 flex items-center bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-full px-[24px] py-[12px] font-semibold text-base gap-x-2">
+        Subscribe
+        <img src="./B13-A02-TechWave/assets/ArrowRight.png" class="h-5 w-5" alt="">
+      </button>
+    </nav>
+
+    <section class="hero-section w-full max-w-[1600px] mx-auto h-[760px] flex items-center justify-center ">
+      <div class="text-center">
+        
+        <div class="relative inline-block">
+          <img src="./B13-A02-TechWave/assets/hero-circle.png" alt="Circle" class="w-[350px] h-[350px]">
+          <img src="./B13-A02-TechWave/assets/microphone.png" alt="Mic" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[140px] h-[180px]">
+          
+          <button class="absolute top-4 right-4 w-[75px] h-[40px] rounded-full bg-[#00FF88] text-black font-bold text-sm shadow-lg">
+            NEW
+          </button>
+        </div>
+
+        <div class="mt-8">
+          <h2 class="font-extrabold text-[60px] text-gray-50">TechWave</h2>
+          <p class="font-normal text-base text-gray-50 opacity-80 w-[550px] mx-auto mb-8">
+            Your daily dose of tech insights, productivity hacks, and personal growth
+          </p>
+          
+          <div class="flex justify-center gap-4">
+            <button class="flex items-center gap-2 px-6 py-3 bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-gray-50 rounded-full">
+              <img src="./B13-A02-TechWave/assets/spotify.png" alt="" class="w-6"> Listen On Spotify
+            </button>
+            <button class="flex items-center gap-2 px-6 py-3 bg-white/10  rounded-full text-[#00FF88] border border-[1px]">
+              <img src="./B13-A02-TechWave/assets/message.png" alt="" class="w-6 "> Subscribe
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </header>
+</body>
+
+</html>
