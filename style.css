@@ -23,3 +23,52 @@
   background: url(./B13-A02-TechWave/assets/footer-bg.png);
   background-repeat: no-repeat;
 }
+.responsive-container {
+      width: 100%;
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    
+    @media (min-width: 640px) {
+      .responsive-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+    }
+    
+    @media (min-width: 1024px) {
+      .responsive-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+    }
+    
+    @media (min-width: 1280px) {
+      .responsive-container {
+        padding-left: 8rem;
+        padding-right: 8rem;
+      }
+    }
+    
+    @media (min-width: 1536px) {
+      .responsive-container {
+        padding-left: 12.5rem;
+        padding-right: 12.5rem;
+      }
+    }
+    
+    /* Custom gradient text */
+    .gradient-text {
+      background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    /* Custom gradient button */
+    .gradient-button {
+      background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    }
